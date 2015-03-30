@@ -101,7 +101,7 @@
     <orderEntry type="library" name="Maven: org.apache.hadoop:hadoop-hdfs:2.5.0-cdh5.2.4" level="project" />
     <orderEntry type="library" name="Maven: commons-daemon:commons-daemon:1.0.13" level="project" />
     <orderEntry type="library" name="Maven: org.apache.hadoop:hadoop-hdfs:test-jar:tests:2.5.0-cdh5.2.4" level="project" />
-    <orderEntry type="library" name="Maven: org.scala-lang:scala-library:2.10.2" level="project" />
+    <orderEntry type="library" name="Maven: org.scala-lang:scala-library:2.10.4" level="project" />
     <orderEntry type="library" name="Maven: org.apache.spark:spark-core_2.10:1.0.0-cdh5.1.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.hadoop:hadoop-client:2.3.0-cdh5.1.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.hadoop:hadoop-mapreduce-client-app:2.3.0-cdh5.1.0" level="project" />
