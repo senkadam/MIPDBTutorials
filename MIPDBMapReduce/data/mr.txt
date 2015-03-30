@@ -1,0 +1,15 @@
+
+Definition - What does NoSQL mean?
+NoSQL is a class of database management systems (DBMS) that do not follow all of the rules of a relational DBMS and cannot use traditional SQL to query data. The term is somewhat misleading when interpreted as "No SQL," and most translate it as "Not Only SQL," as this type of database is not generally a replacement but, rather, a complementary addition to RDBMSs and SQL.
+
+NoSQL-based systems are typically used in very large databases, which are particularly prone to performance problems caused by the limitations of SQL and the relational model of databases. Many think of NoSQL as the modern database of choice that scales with Web requirements. Some notable implementations of NoSQL are Facebook's Cassandra database, Google's BigTable and Amazon's SimpleDB and Dynamo.
+Techopedia explains NoSQL
+A NoSQL database does not necessarily follow the strict rules that govern transactions in relational databases. These violated rules are known by the acronym ACID (Atomicity, Consistency, Integrity, Durability). For example, NoSQL databases do not use fixed schema structures and SQL joins.
+
+In a traditional RDBMS, the basic operations are reads and writes. Reads may be scaled by replicating data to multiple machines, thus load-balancing read requests. However, this affects writes because data consistency must be maintained. Writes only may be scaled by partitioning the data. This affects reads, as distributed joins are usually slow and hard to implement. Additionally, to maintain ACID properties, databases must lock data. This means that when one user opens a data item, no other user should be able to make changes to the same item. This restriction has serious implications on performance.
+
+These limitations have not been a major problem in the past. However, with the advent of social networking and big data, a number of massive databases that emerged were forced to serve the tens, or even hundreds, of millions of clients throughout the world with several thousand reads and writes every minute. Traditional RDBMSs simply do not meet this need because they can only "scale up," or increase the resources on a central server. A NoSQL implementation, on the other hand, can "scale out," or distribute the database load across more servers.
+
+NoSQL databases are focused on particular classes of problems - from being more flexible about stored data (document stores), to targeting use cases, like relationships (graph databases) and aggregating data (column databases) or just simplifying the idea of a database down to something that stores a value (key/value stores).
+
+NoSQL databases offer the advantages of rapid scalability, much better performance, and a simpler structure compared to RDBMSs. However, they also suffer from being a relatively new and unproven technology, and they cannot provide RDBMS' rich reporting and analytical functionality.
